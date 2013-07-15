@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "--name " $1 "--dir " $2 "--descr " $3 "--author " $4 "--alias " $5
+echo automaton --name $1 --dir $2 --descr $3 --author $4 --alias$5

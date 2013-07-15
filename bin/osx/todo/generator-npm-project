@@ -1,0 +1,19 @@
+#!/bin/sh
+
+AZEBAN_DIR=~/SkyDrive/archive/azeban/
+echo $AZEBAN_DIR
+
+PROJ_NAME=$1
+PROJ_DIR=$2
+PROJ_DESCR=$3
+PROJ_AUTHOR=$4
+PROJ_ALIAS=$5
+
+pushd $AZEBAN_DIR > /dev/null
+
+bin/azeban $PROJ_NAME $PROJ_DIR $PROJ_DESCR $PROJ_AUTHOR $PROJ_ALIAS
+
+popd > /dev/null
+
+mv $AZEBAN_DIR/$PROJ_DIR ./
+cd $PROJ_DIR

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+node --debug-brk $1 &
+node-inspector

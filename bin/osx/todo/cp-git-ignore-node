@@ -1,0 +1,4 @@
+#!/bin/sh
+
+pwd
+cp $DEADZED_TEMPLATES/.gitignore-node.template ./.gitignore
