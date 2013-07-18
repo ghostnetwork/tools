@@ -1,0 +1,11 @@
+#!/bin/sh
+
+export ARG=$1
+
+if [ "$1" = "" ]; then
+  export ARG="."
+fi
+
+T=`xdg-mime query filetype $1`
+#echo "opening file "  $1  " of type " $T "with " `xdg-mime query default $T`
+xdg-open $ARG
