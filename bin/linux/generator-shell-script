@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo $1
+cp $DEADZED_TEMPLATES/shell-script.template ./$1
+
+chmod 777 $1
+"/home/keermel/Programs/Sublime Text 2/sublime_text" $1

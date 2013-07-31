@@ -1,0 +1,5 @@
+#!/bin/bash
+
+pushd ~/Code/ghostnetwork/javascript/projects/nodejs-modules/heget
+bin/heget.bin.js
+popd

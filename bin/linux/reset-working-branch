@@ -1,0 +1,5 @@
+#!/bin/sh
+
+git co master
+git br -d working
+git co -b working
