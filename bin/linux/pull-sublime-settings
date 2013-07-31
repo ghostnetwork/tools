@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/bin/bash
 
 pushd ~/data/sublime_text_settings
@@ -8,3 +9,15 @@ git pull origin master
 git co working
 
 popd
+=======
+#!/bin/bash
+
+pushd ~/AppData/Roaming/sublime_text_settings
+
+git co master
+git st
+git pull origin master
+git co working
+
+popd
+>>>>>>> cb83d6d84a49b32bd7f1b6e5400c74779f5b3890
