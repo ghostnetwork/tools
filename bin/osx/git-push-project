@@ -1,0 +1,6 @@
+#!/bin/sh
+
+git co master
+git merge working
+git push
+reset-working-branch
